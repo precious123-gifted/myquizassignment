@@ -1,0 +1,222 @@
+ body {
+     margin: 0;
+     background-color: #FFFBF2;
+ }
+ 
+ .main {
+     height: 100vh;
+     width: 100vw;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .home-div {
+     display: flex;
+     font-size: larger;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     min-width: 70%;
+     height: 70%;
+     background: #5A3131;
+     border-radius: 32px;
+     color: #FDE9E9;
+     position: relative;
+ }
+ 
+ .result-div {
+    display: flex;
+    font-size: larger;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 70%;
+    height: 70%;
+    background: #5A3131;
+    border-radius: 32px;
+    color: #FDE9E9;
+    position:absolute;
+    visibility: hidden;
+    
+}
+
+.home-button{
+    border-radius: 10px;
+    color: #2D1212;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16%;
+    height: 9%;
+    background-color: #E49E9E;
+    margin-top: 12px;
+}
+
+.score-box{
+    margin-bottom: 90px;
+}
+
+.score-bold{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.score{
+    font-size: 60px;
+}
+
+
+ .start-button {
+     border-radius: 10px;
+     color: #2D1212;
+     cursor: pointer;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 20%;
+     height: 10%;
+     background-color: #E49E9E;
+     margin-top: 12px;
+ }
+ 
+ .quiz-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-width: 70%;
+     height: 90%;
+     background: #5A3131;
+     border-radius: 32px;
+     color: #2D1212;
+     position: absolute;
+     visibility: hidden;
+ }
+ 
+ .question-one-div {
+     display: flex;
+     font-size: larger;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+     width: 100%;
+     height: 100%;
+ }
+ 
+ .pop-correct {
+     color: green;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 450px;
+     height: 200px;
+     background-color: #E49E9E;
+     visibility: hidden;
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     transform: translate(-50%,-50%);
+ }
+ 
+ .ok {
+     background-color: #a58e8e;
+     border-radius: 9px;
+     cursor: pointer;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 40px;
+     height: 40px;
+     margin-left: 100px;
+     color: #2D1212;
+ }
+ 
+ .pop-incorrect {
+     color: red;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 450px;
+     height: 200px;
+     background-color: #E49E9E;
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     transform: translate(-50%,-50%);
+     visibility: hidden;
+ }
+ 
+ .screen {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 70%;
+     height: 50%;
+     background: #FFF4F4;
+     padding: 8px;
+ }
+ 
+ .question-one-heading {
+     margin-bottom: 60px;
+ }
+ 
+ .question-one {
+     margin-bottom: 60px;
+ }
+ 
+ .answer {
+     font-size: larger;
+     visibility: hidden
+ }
+ 
+ .options {
+     width: 70%;
+     height: 20%;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-template-rows: 1fr 1fr;
+     justify-items: center;
+ }
+ 
+ .option {
+     cursor: pointer;
+     display: flex;
+     align-items: center;
+     border-radius: 6px;
+     width: 66%;
+     height: 65%;
+     background-color: #FDE9E9;
+     padding: 7px;
+ }
+ 
+ .answer {
+     cursor: pointer;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border-radius: 6px;
+     width: 66%;
+     height: 65%;
+     background-color: #FDE9E9;
+     padding: 7px;
+     visibility: hidden;
+ }
+
+
+
+ .next-button{
+
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    width: 10%;
+    height: 5%;
+    background-color: #FDE9E9;
+    padding: 7px;
+    margin-bottom: 20px;
+
+ }
